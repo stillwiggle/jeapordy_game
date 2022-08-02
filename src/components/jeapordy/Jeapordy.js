@@ -53,12 +53,14 @@ class Jeopardy extends Component {
                     {/* Display the category title */}
                     Categoy: {categoryValues.title}<br></br>
                     {/* Display the points total */}
-                    Points: {this.state.data.value}
+                    Points: {this.state.data.value}<br></br>
+                    {/* Temporarily show the answer to ensure the call is working */}
+                    Answer: {this.state.data.answer}
 
                 </div>
 
                 <div>
-                    Player Score: {this.score}
+                    Player Score: {this.state.score}
                 </div>
                 
 
